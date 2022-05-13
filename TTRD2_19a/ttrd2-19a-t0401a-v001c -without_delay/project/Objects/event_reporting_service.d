@@ -1,0 +1,12 @@
+.\objects\event_reporting_service.o: ..\source\ecss_services\event_reporting_service.c
+.\objects\event_reporting_service.o: ..\source\ecss_services\event_reporting_service.h
+.\objects\event_reporting_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\event_reporting_service.o: ..\source\ecss_services\services.h
+.\objects\event_reporting_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\event_reporting_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\event_reporting_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\event_reporting_service.o: ..\source\ecss_services\subsystems_ids.h
+.\objects\event_reporting_service.o: ..\source\ecss_services\system.h
+.\objects\event_reporting_service.o: ..\source\ecss_services\service_utilities.h
+.\objects\event_reporting_service.o: ..\source\ecss_services\pkt_pool.h
+.\objects\event_reporting_service.o: ..\source\ecss_services\hldlc.h

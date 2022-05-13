@@ -1,0 +1,10 @@
+.\objects\ecss_stats.o: ..\source\ecss_services\ecss_stats.c
+.\objects\ecss_stats.o: ..\source\ecss_services\ecss_stats.h
+.\objects\ecss_stats.o: ..\source\ecss_services\services.h
+.\objects\ecss_stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ecss_stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ecss_stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ecss_stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ecss_stats.o: ..\source\ecss_services\subsystems_ids.h
+.\objects\ecss_stats.o: ..\source\ecss_services\system.h
+.\objects\ecss_stats.o: ..\source\ecss_services\service_utilities.h

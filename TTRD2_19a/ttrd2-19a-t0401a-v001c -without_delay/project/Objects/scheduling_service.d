@@ -1,0 +1,13 @@
+.\objects\scheduling_service.o: ..\source\ecss_services\scheduling_service.c
+.\objects\scheduling_service.o: ..\source\ecss_services\scheduling_service.h
+.\objects\scheduling_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\scheduling_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\scheduling_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\scheduling_service.o: ..\source\ecss_services\service_utilities.h
+.\objects\scheduling_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\scheduling_service.o: ..\source\ecss_services\services.h
+.\objects\scheduling_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\scheduling_service.o: ..\source\ecss_services\subsystems_ids.h
+.\objects\scheduling_service.o: ..\source\ecss_services\system.h
+.\objects\scheduling_service.o: ..\source\ecss_services\time_management_service.h
+.\objects\scheduling_service.o: ..\source\ecss_services\pkt_pool.h

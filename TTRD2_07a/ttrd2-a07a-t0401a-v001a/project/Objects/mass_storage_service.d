@@ -1,0 +1,11 @@
+.\objects\mass_storage_service.o: ..\source\ecss_services\mass_storage_service.c
+.\objects\mass_storage_service.o: ..\source\ecss_services\mass_storage_service.h
+.\objects\mass_storage_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mass_storage_service.o: ..\source\ecss_services\services.h
+.\objects\mass_storage_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mass_storage_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\mass_storage_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mass_storage_service.o: ..\source\ecss_services\subsystems_ids.h
+.\objects\mass_storage_service.o: ..\source\ecss_services\system.h
+.\objects\mass_storage_service.o: ..\source\ecss_services\pkt_pool.h
+.\objects\mass_storage_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

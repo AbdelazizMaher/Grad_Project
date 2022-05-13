@@ -1,0 +1,11 @@
+.\objects\test_service.o: ..\source\ecss_services\test_service.c
+.\objects\test_service.o: ..\source\ecss_services\test_service.h
+.\objects\test_service.o: ..\source\ecss_services\services.h
+.\objects\test_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\test_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\test_service.o: ..\source\ecss_services\subsystems_ids.h
+.\objects\test_service.o: ..\source\ecss_services\system.h
+.\objects\test_service.o: ..\source\ecss_services\service_utilities.h
+.\objects\test_service.o: ..\source\ecss_services\pkt_pool.h
