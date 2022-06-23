@@ -1,0 +1,12 @@
+.\objects\time_management_service.o: ..\source\ecss_services\time_management_service.c
+.\objects\time_management_service.o: ..\source\ecss_services\time_management_service.h
+.\objects\time_management_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\time_management_service.o: ..\source\ecss_services\services.h
+.\objects\time_management_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\time_management_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\time_management_service.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\time_management_service.o: ..\source\ecss_services\subsystems_ids.h
+.\objects\time_management_service.o: ..\source\ecss_services\system.h
+.\objects\time_management_service.o: ..\source\ecss_services\pkt_pool.h
+.\objects\time_management_service.o: ..\source\ecss_services\service_utilities.h
+.\objects\time_management_service.o: ..\source\ecss_services\obc_hsi.h
