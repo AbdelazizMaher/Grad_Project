@@ -1,0 +1,23 @@
+17:52:52 **** Incremental Build of configuration Debug for project rtc_sch ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\rtc_sch\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/rtc_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/rtc_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/rtc_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/rtc_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: rtc_sch.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/rtc_sch/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rtc_sch.elf" @"objects.list"   -lm
+Finished building target: rtc_sch.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rtc_sch.elf" "rtc_sch.bin"
+arm-none-eabi-size "rtc_sch.elf"
+   text	   data	    bss	    dec	    hex	filename
+  28980	   2516	   2712	  34208	   85a0	rtc_sch.elf
+ 
+
+17:52:54 Build Finished (took 1s.867ms)
+

@@ -1,0 +1,47 @@
+19:05:28 **** Incremental Build of configuration Debug for project fatfs_obc_hk ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_obc_hk\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_obc_hk/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_obc_hk/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_obc_hk/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_obc_hk/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'mass_storage_storeFile':
+../src/main.c:406:76: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     if(sid == WOD_LOG)          { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_WOD_LOG, file); }
+                                                                           ~^
+                                                                           %ld
+../src/main.c:407:76: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     else if(sid == EXT_WOD_LOG) { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_EXT_WOD_LOG, file); }
+                                                                           ~^
+                                                                           %ld
+../src/main.c:408:76: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     else if(sid == EVENT_LOG)   { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_EVENT_LOG, file); }
+                                                                           ~^
+                                                                           %ld
+../src/main.c:409:76: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     else if(sid == FOTOS)       { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_FOTOS, file); }
+                                                                           ~^
+                                                                           %ld
+../src/main.c:410:76: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     else if(sid == SCHS)        { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_SCHS, file); }
+                                                                           ~^
+                                                                           %ld
+../src/main.c:395:13: warning: unused variable 'fno' [-Wunused-variable]
+     FILINFO fno;
+             ^~~
+Finished building: ../src/main.c
+ 
+Building target: fatfs_obc_hk.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_obc_hk/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "fatfs_obc_hk.elf" @"objects.list"   -lm
+Finished building target: fatfs_obc_hk.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "fatfs_obc_hk.elf" "fatfs_obc_hk.bin"
+arm-none-eabi-size "fatfs_obc_hk.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44080	   3084	  57224	 104388	  197c4	fatfs_obc_hk.elf
+ 
+
+19:05:32 Build Finished (took 3s.967ms)
+

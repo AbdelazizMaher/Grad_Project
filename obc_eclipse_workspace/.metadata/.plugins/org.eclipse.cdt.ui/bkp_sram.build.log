@@ -1,0 +1,30 @@
+10:18:08 **** Incremental Build of configuration Debug for project bkp_sram ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\bkp_sram\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/bkp_sram/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/bkp_sram/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/bkp_sram/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/bkp_sram/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bkup_sram_INIT':
+../src/main.c:166:53: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if(!C_ASSERT(*obc_data.log_cnt < EV_MAX_BUFFER) == true)      { *obc_data.log_cnt = 0; }
+                                                     ^~
+../src/main.c:166:8: note: add parentheses around left hand side expression to silence this warning
+     if(!C_ASSERT(*obc_data.log_cnt < EV_MAX_BUFFER) == true)      { *obc_data.log_cnt = 0; }
+        ^
+Finished building: ../src/main.c
+ 
+Building target: bkp_sram.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/bkp_sram/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "bkp_sram.elf" @"objects.list"   -lm
+Finished building target: bkp_sram.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bkp_sram.elf" "bkp_sram.bin"
+arm-none-eabi-size "bkp_sram.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2600	   1080	   2188	   5868	   16ec	bkp_sram.elf
+ 
+
+10:18:09 Build Finished (took 1s.828ms)
+

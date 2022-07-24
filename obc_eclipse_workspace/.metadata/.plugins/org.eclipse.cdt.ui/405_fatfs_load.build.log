@@ -1,0 +1,35 @@
+20:52:26 **** Incremental Build of configuration Debug for project 405_fatfs_load ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\405_fatfs_load\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F405RGTx -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/405_fatfs_load/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/405_fatfs_load/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/405_fatfs_load/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/405_fatfs_load/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'mass_storage_init':
+../src/main.c:393:40: warning: comparison between 'FRESULT {aka enum <anonymous>}' and 'enum <anonymous>' [-Wenum-compare]
+     if((res = mass_storage_dirCheck()) != SATR_OK)         { return res; }
+                                        ^~
+../src/main.c: In function 'mass_storage_storeFile':
+../src/main.c:586:71: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     if(sid == SCHS)        { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_SCHS, file); }
+                                                                      ~^
+                                                                      %ld
+../src/main.c:580:13: warning: unused variable 'fno' [-Wunused-variable]
+     FILINFO fno;
+             ^~~
+Finished building: ../src/main.c
+ 
+Building target: 405_fatfs_load.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/405_fatfs_load/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "405_fatfs_load.elf" @"objects.list"   -lm
+Finished building target: 405_fatfs_load.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "405_fatfs_load.elf" "405_fatfs_load.bin"
+arm-none-eabi-size "405_fatfs_load.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44256	   3060	   5504	  52820	   ce54	405_fatfs_load.elf
+ 
+
+20:52:28 Build Finished (took 1s.759ms)
+

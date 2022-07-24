@@ -1,0 +1,6 @@
+15:45:43 **** Incremental Build of configuration Debug for project obcTESTrecieve2 ****
+make -j16 all 
+make: Nothing to be done for 'all'.
+
+15:45:44 Build Finished (took 877ms)
+

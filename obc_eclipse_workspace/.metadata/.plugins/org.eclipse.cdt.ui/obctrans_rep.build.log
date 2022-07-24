@@ -1,0 +1,6 @@
+04:56:04 **** Incremental Build of configuration Debug for project obctrans_rep ****
+make -j16 all 
+make: Nothing to be done for 'all'.
+
+04:56:05 Build Finished (took 786ms)
+

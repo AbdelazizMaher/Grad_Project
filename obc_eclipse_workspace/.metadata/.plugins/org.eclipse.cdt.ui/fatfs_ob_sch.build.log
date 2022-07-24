@@ -1,0 +1,142 @@
+22:32:04 **** Build of configuration Debug for project fatfs_ob_sch ****
+make -j16 all 
+Building file: ../src/diskio.c
+Building file: ../src/fatfs.c
+Building file: ../src/fatfs_sd_sdio.c
+Building file: ../src/ff.c
+Building file: ../src/main.c
+Building file: ../src/sd_diskio.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Building file: ../src/tm_stm32f4_fatfs.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/diskio.d" -MT"src/diskio.o" -o "src/diskio.o" "../src/diskio.c"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/fatfs.d" -MT"src/fatfs.o" -o "src/fatfs.o" "../src/fatfs.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/fatfs_sd_sdio.d" -MT"src/fatfs_sd_sdio.o" -o "src/fatfs_sd_sdio.o" "../src/fatfs_sd_sdio.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/ff.d" -MT"src/ff.o" -o "src/ff.o" "../src/ff.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/sd_diskio.d" -MT"src/sd_diskio.o" -o "src/sd_diskio.o" "../src/sd_diskio.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\fatfs_ob_sch\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/tm_stm32f4_fatfs.d" -MT"src/tm_stm32f4_fatfs.o" -o "src/tm_stm32f4_fatfs.o" "../src/tm_stm32f4_fatfs.c"
+../src/fatfs.c:40:10: fatal error: time_management_service.h: No such file or directory
+ #include "time_management_service.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:51: recipe for target 'src/fatfs.o' failed
+make: *** [src/fatfs.o] Error 1
+make: *** Waiting for unfinished jobs....
+../src/main.c: In function 'mass_storage_init':
+../src/main.c:267:40: warning: comparison between 'FRESULT {aka enum <anonymous>}' and 'enum <anonymous>' [-Wenum-compare]
+     if((res = mass_storage_dirCheck()) != SATR_OK)         { return res; }
+                                        ^~
+../src/main.c: In function 'scheduling_service_init':
+../src/main.c:288:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].enabled;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main.c:289:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].sub_schedule_id;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../src/main.c:290:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].num_of_sch_tc;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+../src/main.c:291:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].intrlck_set_id;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/main.c:292:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].intrlck_ass_id;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/main.c:293:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].assmnt_type;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/tm_stm32f4_fatfs.c: In function 'TM_FATFS_TruncateBeginning':
+../src/tm_stm32f4_fatfs.c:113:40: warning: passing argument 4 of 'f_read' from incompatible pointer type [-Wincompatible-pointer-types]
+   fr = f_read(fil, &Buffer, BlockSize, &Read);  /* Read data */
+                                        ^
+../src/main.c:294:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].sch_evt;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main.c:295:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].release_time;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc/tm_stm32f4_fatfs.h:447:0,
+                 from ../src/tm_stm32f4_fatfs.c:19:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc/ff.h:214:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'uint32_t * {aka long unsigned int *}'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/main.c:296:37: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].timeout;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/tm_stm32f4_fatfs.c:118:41: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+   fr = f_write(fil, &Buffer, BlockSize, &Written);/* Write data */
+                                         ^
+../src/main.c:297:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.app_id;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc/tm_stm32f4_fatfs.h:447:0,
+                 from ../src/tm_stm32f4_fatfs.c:19:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/fatfs_ob_sch/inc/ff.h:215:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'uint32_t * {aka long unsigned int *}'
+ FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw); /* Write data to a file */
+         ^~~~~~~
+../src/main.c:298:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.type;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/main.c:299:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.seq_flags;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+../src/main.c:300:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.seq_count;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+../src/main.c:301:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.len;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+../src/main.c:302:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.ack;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+../src/main.c:303:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.ser_type;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/main.c:304:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.ser_subtype;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/main.c:305:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.dest_id;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main.c:308:56: warning: statement with no effect [-Wunused-value]
+                sch_mem_pool.sc_mem_array[s].tc_pck.data[i] ;
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+../src/main.c:310:44: warning: statement with no effect [-Wunused-value]
+         sch_mem_pool.sc_mem_array[s].tc_pck.verification_state;
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'mass_storage_storeFile':
+../src/main.c:430:71: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+     if(sid == SCHS)        { snprintf((char*)path, MS_MAX_PATH, "%s//%d", MS_SCHS, file); }
+                                                                      ~^
+                                                                      %ld
+../src/main.c:424:13: warning: unused variable 'fno' [-Wunused-variable]
+     FILINFO fno;
+             ^~~
+Finished building: ../src/tm_stm32f4_fatfs.c
+Finished building: ../src/diskio.c
+Finished building: ../src/main.c
+Finished building: ../src/sd_diskio.c
+ 
+Finished building: ../src/fatfs_sd_sdio.c
+ 
+ 
+ 
+ 
+Finished building: ../src/ff.c
+ 
+
+22:32:07 Build Finished (took 3s.218ms)
+

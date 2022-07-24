@@ -1,0 +1,6 @@
+20:01:36 **** Incremental Build of configuration Debug for project 405_rtcSCH ****
+make -j16 all 
+make: Nothing to be done for 'all'.
+
+20:01:37 Build Finished (took 496ms)
+

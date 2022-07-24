@@ -1,0 +1,741 @@
+09:01:30 **** Incremental Build of configuration Debug for project obc_test ****
+make -j16 all 
+Building file: ../startup/startup_stm32f407xx.s
+Building file: ../startup/system_stm32f4xx.c
+Building file: ../src/02_Led_BTN_Toggle.c
+Building file: ../Drivers/src/misc.c
+Building file: ../Drivers/src/stm32f4xx_adc.c
+Building file: ../Drivers/src/stm32f4xx_can.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Building file: ../Drivers/src/stm32f4xx_cec.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+Building file: ../Drivers/src/stm32f4xx_crc.c
+Building file: ../Drivers/src/stm32f4xx_cryp.c
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"startup/system_stm32f4xx.d" -MT"startup/system_stm32f4xx.o" -o "startup/system_stm32f4xx.o" "../startup/system_stm32f4xx.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/02_Led_BTN_Toggle.d" -MT"src/02_Led_BTN_Toggle.o" -o "src/02_Led_BTN_Toggle.o" "../src/02_Led_BTN_Toggle.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/misc.d" -MT"Drivers/src/misc.o" -o "Drivers/src/misc.o" "../Drivers/src/misc.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_adc.d" -MT"Drivers/src/stm32f4xx_adc.o" -o "Drivers/src/stm32f4xx_adc.o" "../Drivers/src/stm32f4xx_adc.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_can.d" -MT"Drivers/src/stm32f4xx_can.o" -o "Drivers/src/stm32f4xx_can.o" "../Drivers/src/stm32f4xx_can.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_cec.d" -MT"Drivers/src/stm32f4xx_cec.o" -o "Drivers/src/stm32f4xx_cec.o" "../Drivers/src/stm32f4xx_cec.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_cryp.d" -MT"Drivers/src/stm32f4xx_cryp.o" -o "Drivers/src/stm32f4xx_cryp.o" "../Drivers/src/stm32f4xx_cryp.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_crc.d" -MT"Drivers/src/stm32f4xx_crc.o" -o "Drivers/src/stm32f4xx_crc.o" "../Drivers/src/stm32f4xx_crc.c"
+../startup/startup_stm32f407xx.s: Assembler messages:
+../startup/startup_stm32f407xx.s:1: Error: junk at end of line, first unrecognized character is `*'
+Building file: ../Drivers/src/stm32f4xx_cryp_aes.c
+../startup/startup_stm32f407xx.s:2: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:3: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:4: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:5: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:6: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:7: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:8: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:9: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:10: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:11: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:12: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:13: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:14: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:15: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:16: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:16: Error: bad instruction `copyright (c)2017 STMicroelectronics.'
+../startup/startup_stm32f407xx.s:17: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:18: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:19: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:20: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:20: Error: bad instruction `you may not use this file except in compliance with the'
+../startup/startup_stm32f407xx.s:21: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:22: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:23: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:24: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:25: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:27: Error: bad instruction `amount of memory(in bytes)allocated for Stack'
+../startup/startup_stm32f407xx.s:28: Error: bad instruction `tailor this value to your application needs'
+../startup/startup_stm32f407xx.s:29: Error: junk at end of line, first unrecognized character is `<'
+../startup/startup_stm32f407xx.s:30: Error: junk at end of line, first unrecognized character is `<'
+../startup/startup_stm32f407xx.s:31: Error: junk at end of line, first unrecognized character is `<'
+../startup/startup_stm32f407xx.s:33: Error: bad instruction `stack_size EQU 0x00000400'
+../startup/startup_stm32f407xx.s:35: Error: bad instruction `area STACK,NOINIT,READWRITE,ALIGN=3'
+../startup/startup_stm32f407xx.s:36: Error: bad instruction `stack_mem SPACE Stack_Size'
+../startup/startup_stm32f407xx.s:37: Error: bad instruction `__initial_sp'
+../startup/startup_stm32f407xx.s:40: Error: junk at end of line, first unrecognized character is `<'
+../startup/startup_stm32f407xx.s:41: Error: junk at end of line, first unrecognized character is `<'
+../startup/startup_stm32f407xx.s:42: Error: junk at end of line, first unrecognized character is `<'
+../startup/startup_stm32f407xx.s:44: Error: bad instruction `heap_size EQU 0x00000200'
+../startup/startup_stm32f407xx.s:46: Error: bad instruction `area HEAP,NOINIT,READWRITE,ALIGN=3'
+../startup/startup_stm32f407xx.s:47: Error: bad instruction `__heap_base'
+../startup/startup_stm32f407xx.s:48: Error: bad instruction `heap_mem SPACE Heap_Size'
+../startup/startup_stm32f407xx.s:49: Error: bad instruction `__heap_limit'
+../startup/startup_stm32f407xx.s:51: Error: bad instruction `preserve8'
+../startup/startup_stm32f407xx.s:52: Error: bad instruction `thumb'
+../startup/startup_stm32f407xx.s:55: Error: bad instruction `vector Table Mapped to Address 0 at Reset'
+../startup/startup_stm32f407xx.s:56: Error: bad instruction `area RESET,DATA,READONLY'
+../startup/startup_stm32f407xx.s:57: Error: bad instruction `export __Vectors'
+../startup/startup_stm32f407xx.s:58: Error: bad instruction `export __Vectors_End'
+../startup/startup_stm32f407xx.s:59: Error: bad instruction `export __Vectors_Size'
+../startup/startup_stm32f407xx.s:61: Error: bad instruction `__vectors DCD __initial_sp'
+../startup/startup_stm32f407xx.s:61: Error: bad instruction `top of Stack'
+../startup/startup_stm32f407xx.s:62: Error: bad instruction `dcd Reset_Handler'
+../startup/startup_stm32f407xx.s:62: Error: bad instruction `reset Handler'
+../startup/startup_stm32f407xx.s:63: Error: bad instruction `dcd NMI_Handler'
+../startup/startup_stm32f407xx.s:63: Error: bad instruction `nmi Handler'
+../startup/startup_stm32f407xx.s:64: Error: bad instruction `dcd HardFault_Handler'
+../startup/startup_stm32f407xx.s:64: Error: bad instruction `hard Fault Handler'
+../startup/startup_stm32f407xx.s:65: Error: bad instruction `dcd MemManage_Handler'
+../startup/startup_stm32f407xx.s:65: Error: bad instruction `mpu Fault Handler'
+../startup/startup_stm32f407xx.s:66: Error: bad instruction `dcd BusFault_Handler'
+../startup/startup_stm32f407xx.s:66: Error: bad instruction `bus Fault Handler'
+../startup/startup_stm32f407xx.s:67: Error: bad instruction `dcd UsageFault_Handler'
+../startup/startup_stm32f407xx.s:67: Error: bad instruction `usage Fault Handler'
+../startup/startup_stm32f407xx.s:68: Error: bad instruction `dcd 0'
+../startup/startup_stm32f407xx.s:68: Error: bad instruction `reserved'
+../startup/startup_stm32f407xx.s:69: Error: bad instruction `dcd 0'
+../startup/startup_stm32f407xx.s:69: Error: bad instruction `reserved'
+../startup/startup_stm32f407xx.s:70: Error: bad instruction `dcd 0'
+../startup/startup_stm32f407xx.s:70: Error: bad instruction `reserved'
+../startup/startup_stm32f407xx.s:71: Error: bad instruction `dcd 0'
+../startup/startup_stm32f407xx.s:71: Error: bad instruction `reserved'
+../startup/startup_stm32f407xx.s:72: Error: bad instruction `dcd SVC_Handler'
+../startup/startup_stm32f407xx.s:72: Error: bad instruction `svcall Handler'
+../startup/startup_stm32f407xx.s:73: Error: bad instruction `dcd DebugMon_Handler'
+../startup/startup_stm32f407xx.s:73: Error: bad instruction `debug Monitor Handler'
+../startup/startup_stm32f407xx.s:74: Error: bad instruction `dcd 0'
+../startup/startup_stm32f407xx.s:74: Error: bad instruction `reserved'
+../startup/startup_stm32f407xx.s:75: Error: bad instruction `dcd PendSV_Handler'
+../startup/startup_stm32f407xx.s:75: Error: bad instruction `pendsv Handler'
+../startup/startup_stm32f407xx.s:76: Error: bad instruction `dcd SysTick_Handler'
+../startup/startup_stm32f407xx.s:76: Error: bad instruction `systick Handler'
+../startup/startup_stm32f407xx.s:78: Error: bad instruction `external Interrupts'
+../startup/startup_stm32f407xx.s:79: Error: bad instruction `dcd WWDG_IRQHandler'
+../startup/startup_stm32f407xx.s:79: Error: bad instruction `window WatchDog'
+../startup/startup_stm32f407xx.s:80: Error: bad instruction `dcd PVD_IRQHandler'
+../startup/startup_stm32f407xx.s:80: Error: bad instruction `pvd through EXTI Line detection'
+../startup/startup_stm32f407xx.s:81: Error: bad instruction `dcd TAMP_STAMP_IRQHandler'
+../startup/startup_stm32f407xx.s:81: Error: bad instruction `tamper and TimeStamps through the EXTI line'
+../startup/startup_stm32f407xx.s:82: Error: bad instruction `dcd RTC_WKUP_IRQHandler'
+../startup/startup_stm32f407xx.s:82: Error: bad instruction `rtc Wakeup through the EXTI line'
+../startup/startup_stm32f407xx.s:83: Error: bad instruction `dcd FLASH_IRQHandler'
+../startup/startup_stm32f407xx.s:83: Error: bad instruction `flash '
+../startup/startup_stm32f407xx.s:84: Error: bad instruction `dcd RCC_IRQHandler'
+../startup/startup_stm32f407xx.s:84: Error: bad instruction `rcc '
+../startup/startup_stm32f407xx.s:85: Error: bad instruction `dcd EXTI0_IRQHandler'
+../startup/startup_stm32f407xx.s:85: Error: bad instruction `exti Line0'
+../startup/startup_stm32f407xx.s:86: Error: bad instruction `dcd EXTI1_IRQHandler'
+../startup/startup_stm32f407xx.s:86: Error: bad instruction `exti Line1'
+../startup/startup_stm32f407xx.s:87: Error: bad instruction `dcd EXTI2_IRQHandler'
+../startup/startup_stm32f407xx.s:87: Error: bad instruction `exti Line2'
+../startup/startup_stm32f407xx.s:88: Error: bad instruction `dcd EXTI3_IRQHandler'
+../startup/startup_stm32f407xx.s:88: Error: bad instruction `exti Line3'
+../startup/startup_stm32f407xx.s:89: Error: bad instruction `dcd EXTI4_IRQHandler'
+../startup/startup_stm32f407xx.s:89: Error: bad instruction `exti Line4'
+../startup/startup_stm32f407xx.s:90: Error: bad instruction `dcd DMA1_Stream0_IRQHandler'
+../startup/startup_stm32f407xx.s:90: Error: bad instruction `dma1 Stream 0'
+../startup/startup_stm32f407xx.s:91: Error: bad instruction `dcd DMA1_Stream1_IRQHandler'
+../startup/startup_stm32f407xx.s:91: Error: bad instruction `dma1 Stream 1'
+../startup/startup_stm32f407xx.s:92: Error: bad instruction `dcd DMA1_Stream2_IRQHandler'
+../startup/startup_stm32f407xx.s:92: Error: bad instruction `dma1 Stream 2'
+../startup/startup_stm32f407xx.s:93: Error: bad instruction `dcd DMA1_Stream3_IRQHandler'
+../startup/startup_stm32f407xx.s:93: Error: bad instruction `dma1 Stream 3'
+../startup/startup_stm32f407xx.s:94: Error: bad instruction `dcd DMA1_Stream4_IRQHandler'
+../startup/startup_stm32f407xx.s:94: Error: bad instruction `dma1 Stream 4'
+../startup/startup_stm32f407xx.s:95: Error: bad instruction `dcd DMA1_Stream5_IRQHandler'
+../startup/startup_stm32f407xx.s:95: Error: bad instruction `dma1 Stream 5'
+../startup/startup_stm32f407xx.s:96: Error: bad instruction `dcd DMA1_Stream6_IRQHandler'
+../startup/startup_stm32f407xx.s:96: Error: bad instruction `dma1 Stream 6'
+../startup/startup_stm32f407xx.s:97: Error: bad instruction `dcd ADC_IRQHandler'
+../startup/startup_stm32f407xx.s:97: Error: bad instruction `adc1, ADC2 and ADC3s'
+../startup/startup_stm32f407xx.s:98: Error: bad instruction `dcd CAN1_TX_IRQHandler'
+../startup/startup_stm32f407xx.s:98: Error: bad instruction `can1 TX'
+../startup/startup_stm32f407xx.s:99: Error: bad instruction `dcd CAN1_RX0_IRQHandler'
+../startup/startup_stm32f407xx.s:99: Error: bad instruction `can1 RX0'
+../startup/startup_stm32f407xx.s:100: Error: bad instruction `dcd CAN1_RX1_IRQHandler'
+../startup/startup_stm32f407xx.s:100: Error: bad instruction `can1 RX1'
+../startup/startup_stm32f407xx.s:101: Error: bad instruction `dcd CAN1_SCE_IRQHandler'
+../startup/startup_stm32f407xx.s:101: Error: bad instruction `can1 SCE'
+../startup/startup_stm32f407xx.s:102: Error: bad instruction `dcd EXTI9_5_IRQHandler'
+Building file: ../Drivers/src/stm32f4xx_cryp_des.c
+../startup/startup_stm32f407xx.s:102: Error: bad instruction `external Line[9:5]s'
+../startup/startup_stm32f407xx.s:103: Error: bad instruction `dcd TIM1_BRK_TIM9_IRQHandler'
+../startup/startup_stm32f407xx.s:103: Error: bad instruction `tim1 Break and TIM9'
+../startup/startup_stm32f407xx.s:104: Error: bad instruction `dcd TIM1_UP_TIM10_IRQHandler'
+../startup/startup_stm32f407xx.s:104: Error: bad instruction `tim1 Update and TIM10'
+../startup/startup_stm32f407xx.s:105: Error: bad instruction `dcd TIM1_TRG_COM_TIM11_IRQHandler'
+../startup/startup_stm32f407xx.s:105: Error: bad instruction `tim1 Trigger and Commutation and TIM11'
+../startup/startup_stm32f407xx.s:106: Error: bad instruction `dcd TIM1_CC_IRQHandler'
+../startup/startup_stm32f407xx.s:106: Error: bad instruction `tim1 Capture Compare'
+../startup/startup_stm32f407xx.s:107: Error: bad instruction `dcd TIM2_IRQHandler'
+../startup/startup_stm32f407xx.s:107: Error: bad instruction `tim2 '
+../startup/startup_stm32f407xx.s:108: Error: bad instruction `dcd TIM3_IRQHandler'
+../startup/startup_stm32f407xx.s:108: Error: bad instruction `tim3 '
+../startup/startup_stm32f407xx.s:109: Error: bad instruction `dcd TIM4_IRQHandler'
+../startup/startup_stm32f407xx.s:109: Error: bad instruction `tim4 '
+../startup/startup_stm32f407xx.s:110: Error: bad instruction `dcd I2C1_EV_IRQHandler'
+../startup/startup_stm32f407xx.s:110: Error: bad instruction `i2c1 Event'
+../startup/startup_stm32f407xx.s:111: Error: bad instruction `dcd I2C1_ER_IRQHandler'
+../startup/startup_stm32f407xx.s:111: Error: bad instruction `i2c1 Error'
+../startup/startup_stm32f407xx.s:112: Error: bad instruction `dcd I2C2_EV_IRQHandler'
+../startup/startup_stm32f407xx.s:112: Error: bad instruction `i2c2 Event'
+../startup/startup_stm32f407xx.s:113: Error: bad instruction `dcd I2C2_ER_IRQHandler'
+../startup/startup_stm32f407xx.s:113: Error: bad instruction `i2c2 Error'
+../startup/startup_stm32f407xx.s:114: Error: bad instruction `dcd SPI1_IRQHandler'
+../startup/startup_stm32f407xx.s:114: Error: bad instruction `spi1 '
+../startup/startup_stm32f407xx.s:115: Error: bad instruction `dcd SPI2_IRQHandler'
+../startup/startup_stm32f407xx.s:115: Error: bad instruction `spi2 '
+../startup/startup_stm32f407xx.s:116: Error: bad instruction `dcd USART1_IRQHandler'
+../startup/startup_stm32f407xx.s:116: Error: bad instruction `usart1 '
+../startup/startup_stm32f407xx.s:117: Error: bad instruction `dcd USART2_IRQHandler'
+../startup/startup_stm32f407xx.s:117: Error: bad instruction `usart2 '
+../startup/startup_stm32f407xx.s:118: Error: bad instruction `dcd USART3_IRQHandler'
+../startup/startup_stm32f407xx.s:118: Error: bad instruction `usart3 '
+../startup/startup_stm32f407xx.s:119: Error: bad instruction `dcd EXTI15_10_IRQHandler'
+../startup/startup_stm32f407xx.s:119: Error: bad instruction `external Line[15:10]s'
+../startup/startup_stm32f407xx.s:120: Error: bad instruction `dcd RTC_Alarm_IRQHandler'
+../startup/startup_stm32f407xx.s:120: Error: bad instruction `rtc Alarm(A and B)through EXTI Line'
+../startup/startup_stm32f407xx.s:121: Error: bad instruction `dcd OTG_FS_WKUP_IRQHandler'
+../startup/startup_stm32f407xx.s:121: Error: bad instruction `usb OTG FS Wakeup through EXTI line'
+../startup/startup_stm32f407xx.s:122: Error: bad instruction `dcd TIM8_BRK_TIM12_IRQHandler'
+../startup/startup_stm32f407xx.s:122: Error: bad instruction `tim8 Break and TIM12'
+../startup/startup_stm32f407xx.s:123: Error: bad instruction `dcd TIM8_UP_TIM13_IRQHandler'
+../startup/startup_stm32f407xx.s:123: Error: bad instruction `tim8 Update and TIM13'
+../startup/startup_stm32f407xx.s:124: Error: bad instruction `dcd TIM8_TRG_COM_TIM14_IRQHandler'
+../startup/startup_stm32f407xx.s:124: Error: bad instruction `tim8 Trigger and Commutation and TIM14'
+../startup/startup_stm32f407xx.s:125: Error: bad instruction `dcd TIM8_CC_IRQHandler'
+../startup/startup_stm32f407xx.s:125: Error: bad instruction `tim8 Capture Compare'
+../startup/startup_stm32f407xx.s:126: Error: bad instruction `dcd DMA1_Stream7_IRQHandler'
+../startup/startup_stm32f407xx.s:126: Error: bad instruction `dma1 Stream7'
+../startup/startup_stm32f407xx.s:127: Error: bad instruction `dcd FMC_IRQHandler'
+../startup/startup_stm32f407xx.s:127: Error: bad instruction `fmc '
+../startup/startup_stm32f407xx.s:128: Error: bad instruction `dcd SDIO_IRQHandler'
+../startup/startup_stm32f407xx.s:128: Error: bad instruction `sdio '
+../startup/startup_stm32f407xx.s:129: Error: bad instruction `dcd TIM5_IRQHandler'
+../startup/startup_stm32f407xx.s:129: Error: bad instruction `tim5 '
+../startup/startup_stm32f407xx.s:130: Error: bad instruction `dcd SPI3_IRQHandler'
+../startup/startup_stm32f407xx.s:130: Error: bad instruction `spi3 '
+../startup/startup_stm32f407xx.s:131: Error: bad instruction `dcd UART4_IRQHandler'
+../startup/startup_stm32f407xx.s:131: Error: bad instruction `uart4 '
+../startup/startup_stm32f407xx.s:132: Error: bad instruction `dcd UART5_IRQHandler'
+../startup/startup_stm32f407xx.s:132: Error: bad instruction `uart5 '
+../startup/startup_stm32f407xx.s:133: Error: bad instruction `dcd TIM6_DAC_IRQHandler'
+../startup/startup_stm32f407xx.s:133: Error: bad instruction `tim6 and DAC1&2 underrun errors'
+../startup/startup_stm32f407xx.s:134: Error: bad instruction `dcd TIM7_IRQHandler'
+../startup/startup_stm32f407xx.s:134: Error: bad instruction `tim7 '
+../startup/startup_stm32f407xx.s:135: Error: bad instruction `dcd DMA2_Stream0_IRQHandler'
+../startup/startup_stm32f407xx.s:135: Error: bad instruction `dma2 Stream 0'
+../startup/startup_stm32f407xx.s:136: Error: bad instruction `dcd DMA2_Stream1_IRQHandler'
+../startup/startup_stm32f407xx.s:136: Error: bad instruction `dma2 Stream 1'
+../startup/startup_stm32f407xx.s:137: Error: bad instruction `dcd DMA2_Stream2_IRQHandler'
+../startup/startup_stm32f407xx.s:137: Error: bad instruction `dma2 Stream 2'
+../startup/startup_stm32f407xx.s:138: Error: bad instruction `dcd DMA2_Stream3_IRQHandler'
+../startup/startup_stm32f407xx.s:138: Error: bad instruction `dma2 Stream 3'
+../startup/startup_stm32f407xx.s:139: Error: bad instruction `dcd DMA2_Stream4_IRQHandler'
+../startup/startup_stm32f407xx.s:139: Error: bad instruction `dma2 Stream 4'
+../startup/startup_stm32f407xx.s:140: Error: bad instruction `dcd ETH_IRQHandler'
+../startup/startup_stm32f407xx.s:140: Error: bad instruction `ethernet '
+Building file: ../Drivers/src/stm32f4xx_cryp_tdes.c
+../startup/startup_stm32f407xx.s:141: Error: bad instruction `dcd ETH_WKUP_IRQHandler'
+../startup/startup_stm32f407xx.s:141: Error: bad instruction `ethernet Wakeup through EXTI line'
+../startup/startup_stm32f407xx.s:142: Error: bad instruction `dcd CAN2_TX_IRQHandler'
+../startup/startup_stm32f407xx.s:142: Error: bad instruction `can2 TX'
+../startup/startup_stm32f407xx.s:143: Error: bad instruction `dcd CAN2_RX0_IRQHandler'
+../startup/startup_stm32f407xx.s:143: Error: bad instruction `can2 RX0'
+../startup/startup_stm32f407xx.s:144: Error: bad instruction `dcd CAN2_RX1_IRQHandler'
+../startup/startup_stm32f407xx.s:144: Error: bad instruction `can2 RX1'
+../startup/startup_stm32f407xx.s:145: Error: bad instruction `dcd CAN2_SCE_IRQHandler'
+../startup/startup_stm32f407xx.s:145: Error: bad instruction `can2 SCE'
+../startup/startup_stm32f407xx.s:146: Error: bad instruction `dcd OTG_FS_IRQHandler'
+../startup/startup_stm32f407xx.s:146: Error: bad instruction `usb OTG FS'
+../startup/startup_stm32f407xx.s:147: Error: bad instruction `dcd DMA2_Stream5_IRQHandler'
+../startup/startup_stm32f407xx.s:147: Error: bad instruction `dma2 Stream 5'
+../startup/startup_stm32f407xx.s:148: Error: bad instruction `dcd DMA2_Stream6_IRQHandler'
+../startup/startup_stm32f407xx.s:148: Error: bad instruction `dma2 Stream 6'
+../startup/startup_stm32f407xx.s:149: Error: bad instruction `dcd DMA2_Stream7_IRQHandler'
+../startup/startup_stm32f407xx.s:149: Error: bad instruction `dma2 Stream 7'
+../startup/startup_stm32f407xx.s:150: Error: bad instruction `dcd USART6_IRQHandler'
+../startup/startup_stm32f407xx.s:150: Error: bad instruction `usart6 '
+../startup/startup_stm32f407xx.s:151: Error: bad instruction `dcd I2C3_EV_IRQHandler'
+../startup/startup_stm32f407xx.s:151: Error: bad instruction `i2c3 event'
+../startup/startup_stm32f407xx.s:152: Error: bad instruction `dcd I2C3_ER_IRQHandler'
+../startup/startup_stm32f407xx.s:152: Error: bad instruction `i2c3 error'
+../startup/startup_stm32f407xx.s:153: Error: bad instruction `dcd OTG_HS_EP1_OUT_IRQHandler'
+../startup/startup_stm32f407xx.s:153: Error: bad instruction `usb OTG HS End Point 1 Out'
+../startup/startup_stm32f407xx.s:154: Error: bad instruction `dcd OTG_HS_EP1_IN_IRQHandler'
+../startup/startup_stm32f407xx.s:154: Error: bad instruction `usb OTG HS End Point 1 In'
+../startup/startup_stm32f407xx.s:155: Error: bad instruction `dcd OTG_HS_WKUP_IRQHandler'
+../startup/startup_stm32f407xx.s:155: Error: bad instruction `usb OTG HS Wakeup through EXTI'
+../startup/startup_stm32f407xx.s:156: Error: bad instruction `dcd OTG_HS_IRQHandler'
+../startup/startup_stm32f407xx.s:156: Error: bad instruction `usb OTG HS'
+../startup/startup_stm32f407xx.s:157: Error: bad instruction `dcd DCMI_IRQHandler'
+../startup/startup_stm32f407xx.s:157: Error: bad instruction `dcmi '
+../startup/startup_stm32f407xx.s:158: Error: bad instruction `dcd 0'
+../startup/startup_stm32f407xx.s:158: Error: bad instruction `reserved '
+../startup/startup_stm32f407xx.s:159: Error: bad instruction `dcd HASH_RNG_IRQHandler'
+../startup/startup_stm32f407xx.s:159: Error: bad instruction `hash and Rng'
+../startup/startup_stm32f407xx.s:160: Error: bad instruction `dcd FPU_IRQHandler'
+../startup/startup_stm32f407xx.s:160: Error: bad instruction `fpu'
+../startup/startup_stm32f407xx.s:163: Error: bad instruction `__vectors_end'
+../startup/startup_stm32f407xx.s:165: Error: bad instruction `__vectors_size EQU __Vectors_End-__Vectors'
+../startup/startup_stm32f407xx.s:167: Error: bad instruction `area |.text|,CODE,READONLY'
+../startup/startup_stm32f407xx.s:169: Error: bad instruction `reset handler'
+../startup/startup_stm32f407xx.s:170: Error: bad instruction `reset_handler PROC'
+../startup/startup_stm32f407xx.s:171: Error: bad instruction `export Reset_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:172: Error: bad instruction `import SystemInit'
+../startup/startup_stm32f407xx.s:173: Error: bad instruction `import __main'
+../startup/startup_stm32f407xx.s:179: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:181: Error: bad instruction `dummy Exception Handlers(infinite loops which can be modified)'
+../startup/startup_stm32f407xx.s:183: Error: bad instruction `nmi_handler PROC'
+../startup/startup_stm32f407xx.s:184: Error: bad instruction `export NMI_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:186: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:187: Warning: stray `\'
+../startup/startup_stm32f407xx.s:187: Error: bad instruction `hardfault_handler\'
+Invoking: MCU GCC Compiler
+../startup/startup_stm32f407xx.s:188: Error: bad instruction `proc'
+../startup/startup_stm32f407xx.s:189: Error: bad instruction `export HardFault_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:191: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:192: Warning: stray `\'
+../startup/startup_stm32f407xx.s:192: Error: bad instruction `memmanage_handler\'
+../startup/startup_stm32f407xx.s:193: Error: bad instruction `proc'
+../startup/startup_stm32f407xx.s:194: Error: bad instruction `export MemManage_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:196: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:197: Warning: stray `\'
+../startup/startup_stm32f407xx.s:197: Error: bad instruction `busfault_handler\'
+../startup/startup_stm32f407xx.s:198: Error: bad instruction `proc'
+../startup/startup_stm32f407xx.s:199: Error: bad instruction `export BusFault_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:201: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:202: Warning: stray `\'
+../startup/startup_stm32f407xx.s:202: Error: bad instruction `usagefault_handler\'
+../startup/startup_stm32f407xx.s:203: Error: bad instruction `proc'
+../startup/startup_stm32f407xx.s:204: Error: bad instruction `export UsageFault_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:206: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:207: Error: bad instruction `svc_handler PROC'
+../startup/startup_stm32f407xx.s:208: Error: bad instruction `export SVC_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:210: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:211: Warning: stray `\'
+../startup/startup_stm32f407xx.s:211: Error: bad instruction `debugmon_handler\'
+../startup/startup_stm32f407xx.s:212: Error: bad instruction `proc'
+../startup/startup_stm32f407xx.s:213: Error: bad instruction `export DebugMon_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:215: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:216: Error: bad instruction `pendsv_handler PROC'
+../startup/startup_stm32f407xx.s:217: Error: bad instruction `export PendSV_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:219: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:220: Error: bad instruction `systick_handler PROC'
+../startup/startup_stm32f407xx.s:221: Error: bad instruction `export SysTick_Handler [WEAK]'
+../startup/startup_stm32f407xx.s:223: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:225: Error: bad instruction `default_handler PROC'
+../startup/startup_stm32f407xx.s:227: Error: bad instruction `export WWDG_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:228: Error: bad instruction `export PVD_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:229: Error: bad instruction `export TAMP_STAMP_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:230: Error: bad instruction `export RTC_WKUP_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:231: Error: bad instruction `export FLASH_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:232: Error: bad instruction `export RCC_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:233: Error: bad instruction `export EXTI0_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:234: Error: bad instruction `export EXTI1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:235: Error: bad instruction `export EXTI2_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:236: Error: bad instruction `export EXTI3_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:237: Error: bad instruction `export EXTI4_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:238: Error: bad instruction `export DMA1_Stream0_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:239: Error: bad instruction `export DMA1_Stream1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:240: Error: bad instruction `export DMA1_Stream2_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:241: Error: bad instruction `export DMA1_Stream3_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:242: Error: bad instruction `export DMA1_Stream4_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:243: Error: bad instruction `export DMA1_Stream5_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:244: Error: bad instruction `export DMA1_Stream6_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:245: Error: bad instruction `export ADC_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:246: Error: bad instruction `export CAN1_TX_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:247: Error: bad instruction `export CAN1_RX0_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:248: Error: bad instruction `export CAN1_RX1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:249: Error: bad instruction `export CAN1_SCE_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:250: Error: bad instruction `export EXTI9_5_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:251: Error: bad instruction `export TIM1_BRK_TIM9_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:252: Error: bad instruction `export TIM1_UP_TIM10_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:253: Error: bad instruction `export TIM1_TRG_COM_TIM11_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:254: Error: bad instruction `export TIM1_CC_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:255: Error: bad instruction `export TIM2_IRQHandler [WEAK]'
+Invoking: MCU GCC Compiler
+../startup/startup_stm32f407xx.s:256: Error: bad instruction `export TIM3_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:257: Error: bad instruction `export TIM4_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:258: Error: bad instruction `export I2C1_EV_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:259: Error: bad instruction `export I2C1_ER_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:260: Error: bad instruction `export I2C2_EV_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:261: Error: bad instruction `export I2C2_ER_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:262: Error: bad instruction `export SPI1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:263: Error: bad instruction `export SPI2_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:264: Error: bad instruction `export USART1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:265: Error: bad instruction `export USART2_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:266: Error: bad instruction `export USART3_IRQHandler [WEAK]'
+Invoking: MCU GCC Compiler
+../startup/startup_stm32f407xx.s:267: Error: bad instruction `export EXTI15_10_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:268: Error: bad instruction `export RTC_Alarm_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:269: Error: bad instruction `export OTG_FS_WKUP_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:270: Error: bad instruction `export TIM8_BRK_TIM12_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:271: Error: bad instruction `export TIM8_UP_TIM13_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:272: Error: bad instruction `export TIM8_TRG_COM_TIM14_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:273: Error: bad instruction `export TIM8_CC_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:274: Error: bad instruction `export DMA1_Stream7_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:275: Error: bad instruction `export FMC_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:276: Error: bad instruction `export SDIO_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:277: Error: bad instruction `export TIM5_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:278: Error: bad instruction `export SPI3_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:279: Error: bad instruction `export UART4_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:280: Error: bad instruction `export UART5_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:281: Error: bad instruction `export TIM6_DAC_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:282: Error: bad instruction `export TIM7_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:283: Error: bad instruction `export DMA2_Stream0_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:284: Error: bad instruction `export DMA2_Stream1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:285: Error: bad instruction `export DMA2_Stream2_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:286: Error: bad instruction `export DMA2_Stream3_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:287: Error: bad instruction `export DMA2_Stream4_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:288: Error: bad instruction `export ETH_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:289: Error: bad instruction `export ETH_WKUP_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:290: Error: bad instruction `export CAN2_TX_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:291: Error: bad instruction `export CAN2_RX0_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:292: Error: bad instruction `export CAN2_RX1_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:293: Error: bad instruction `export CAN2_SCE_IRQHandler [WEAK]'
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+../startup/startup_stm32f407xx.s:294: Error: bad instruction `export OTG_FS_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:295: Error: bad instruction `export DMA2_Stream5_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:296: Error: bad instruction `export DMA2_Stream6_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:297: Error: bad instruction `export DMA2_Stream7_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:298: Error: bad instruction `export USART6_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:299: Error: bad instruction `export I2C3_EV_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:300: Error: bad instruction `export I2C3_ER_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:301: Error: bad instruction `export OTG_HS_EP1_OUT_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:302: Error: bad instruction `export OTG_HS_EP1_IN_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:303: Error: bad instruction `export OTG_HS_WKUP_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:304: Error: bad instruction `export OTG_HS_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:305: Error: bad instruction `export DCMI_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:306: Error: bad instruction `export HASH_RNG_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:307: Error: bad instruction `export FPU_IRQHandler [WEAK]'
+../startup/startup_stm32f407xx.s:309: Error: bad instruction `wwdg_irqhandler '
+../startup/startup_stm32f407xx.s:310: Error: bad instruction `pvd_irqhandler '
+Building file: ../Drivers/src/stm32f4xx_dac.c
+../startup/startup_stm32f407xx.s:311: Error: bad instruction `tamp_stamp_irqhandler '
+../startup/startup_stm32f407xx.s:312: Error: bad instruction `rtc_wkup_irqhandler '
+../startup/startup_stm32f407xx.s:313: Error: bad instruction `flash_irqhandler '
+../startup/startup_stm32f407xx.s:314: Error: bad instruction `rcc_irqhandler '
+../startup/startup_stm32f407xx.s:315: Error: bad instruction `exti0_irqhandler '
+../startup/startup_stm32f407xx.s:316: Error: bad instruction `exti1_irqhandler '
+../startup/startup_stm32f407xx.s:317: Error: bad instruction `exti2_irqhandler '
+../startup/startup_stm32f407xx.s:318: Error: bad instruction `exti3_irqhandler '
+Building file: ../Drivers/src/stm32f4xx_dbgmcu.c
+../startup/startup_stm32f407xx.s:319: Error: bad instruction `exti4_irqhandler '
+Building file: ../Drivers/src/stm32f4xx_dcmi.c
+../startup/startup_stm32f407xx.s:320: Error: bad instruction `dma1_stream0_irqhandler '
+../startup/startup_stm32f407xx.s:321: Error: bad instruction `dma1_stream1_irqhandler '
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_cryp_aes.d" -MT"Drivers/src/stm32f4xx_cryp_aes.o" -o "Drivers/src/stm32f4xx_cryp_aes.o" "../Drivers/src/stm32f4xx_cryp_aes.c"
+../startup/startup_stm32f407xx.s:322: Error: bad instruction `dma1_stream2_irqhandler '
+../startup/startup_stm32f407xx.s:323: Error: bad instruction `dma1_stream3_irqhandler '
+../startup/startup_stm32f407xx.s:324: Error: bad instruction `dma1_stream4_irqhandler '
+../startup/startup_stm32f407xx.s:325: Error: bad instruction `dma1_stream5_irqhandler '
+../startup/startup_stm32f407xx.s:326: Error: bad instruction `dma1_stream6_irqhandler '
+../startup/startup_stm32f407xx.s:327: Error: bad instruction `adc_irqhandler '
+../startup/startup_stm32f407xx.s:328: Error: bad instruction `can1_tx_irqhandler '
+../startup/startup_stm32f407xx.s:329: Error: bad instruction `can1_rx0_irqhandler '
+../startup/startup_stm32f407xx.s:330: Error: bad instruction `can1_rx1_irqhandler '
+../startup/startup_stm32f407xx.s:331: Error: bad instruction `can1_sce_irqhandler '
+../startup/startup_stm32f407xx.s:332: Error: bad instruction `exti9_5_irqhandler '
+../startup/startup_stm32f407xx.s:333: Error: bad instruction `tim1_brk_tim9_irqhandler '
+../startup/startup_stm32f407xx.s:334: Error: bad instruction `tim1_up_tim10_irqhandler '
+../startup/startup_stm32f407xx.s:335: Error: bad instruction `tim1_trg_com_tim11_irqhandler '
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+../startup/startup_stm32f407xx.s:336: Error: bad instruction `tim1_cc_irqhandler '
+../startup/startup_stm32f407xx.s:337: Error: bad instruction `tim2_irqhandler '
+../startup/startup_stm32f407xx.s:338: Error: bad instruction `tim3_irqhandler '
+../startup/startup_stm32f407xx.s:339: Error: bad instruction `tim4_irqhandler '
+../startup/startup_stm32f407xx.s:340: Error: bad instruction `i2c1_ev_irqhandler '
+../startup/startup_stm32f407xx.s:341: Error: bad instruction `i2c1_er_irqhandler '
+../startup/startup_stm32f407xx.s:342: Error: bad instruction `i2c2_ev_irqhandler '
+../startup/startup_stm32f407xx.s:343: Error: bad instruction `i2c2_er_irqhandler '
+../startup/startup_stm32f407xx.s:344: Error: bad instruction `spi1_irqhandler '
+../startup/startup_stm32f407xx.s:345: Error: bad instruction `spi2_irqhandler '
+../startup/startup_stm32f407xx.s:346: Error: bad instruction `usart1_irqhandler '
+../startup/startup_stm32f407xx.s:347: Error: bad instruction `usart2_irqhandler '
+../startup/startup_stm32f407xx.s:348: Error: bad instruction `usart3_irqhandler '
+../startup/startup_stm32f407xx.s:349: Error: bad instruction `exti15_10_irqhandler '
+../startup/startup_stm32f407xx.s:350: Error: bad instruction `rtc_alarm_irqhandler '
+../startup/startup_stm32f407xx.s:351: Error: bad instruction `otg_fs_wkup_irqhandler '
+../startup/startup_stm32f407xx.s:352: Error: bad instruction `tim8_brk_tim12_irqhandler '
+../startup/startup_stm32f407xx.s:353: Error: bad instruction `tim8_up_tim13_irqhandler '
+../startup/startup_stm32f407xx.s:354: Error: bad instruction `tim8_trg_com_tim14_irqhandler '
+../startup/startup_stm32f407xx.s:355: Error: bad instruction `tim8_cc_irqhandler '
+../startup/startup_stm32f407xx.s:356: Error: bad instruction `dma1_stream7_irqhandler '
+../startup/startup_stm32f407xx.s:357: Error: bad instruction `fmc_irqhandler '
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+../startup/startup_stm32f407xx.s:358: Error: bad instruction `sdio_irqhandler '
+../startup/startup_stm32f407xx.s:359: Error: bad instruction `tim5_irqhandler '
+../startup/startup_stm32f407xx.s:360: Error: bad instruction `spi3_irqhandler '
+../startup/startup_stm32f407xx.s:361: Error: bad instruction `uart4_irqhandler '
+../startup/startup_stm32f407xx.s:362: Error: bad instruction `uart5_irqhandler '
+../startup/startup_stm32f407xx.s:363: Error: bad instruction `tim6_dac_irqhandler '
+../startup/startup_stm32f407xx.s:364: Error: bad instruction `tim7_irqhandler '
+../startup/startup_stm32f407xx.s:365: Error: bad instruction `dma2_stream0_irqhandler '
+../startup/startup_stm32f407xx.s:366: Error: bad instruction `dma2_stream1_irqhandler '
+../startup/startup_stm32f407xx.s:367: Error: bad instruction `dma2_stream2_irqhandler '
+../startup/startup_stm32f407xx.s:368: Error: bad instruction `dma2_stream3_irqhandler '
+../startup/startup_stm32f407xx.s:369: Error: bad instruction `dma2_stream4_irqhandler '
+../startup/startup_stm32f407xx.s:370: Error: bad instruction `eth_irqhandler '
+../startup/startup_stm32f407xx.s:371: Error: bad instruction `eth_wkup_irqhandler '
+../startup/startup_stm32f407xx.s:372: Error: bad instruction `can2_tx_irqhandler '
+../startup/startup_stm32f407xx.s:373: Error: bad instruction `can2_rx0_irqhandler '
+../startup/startup_stm32f407xx.s:374: Error: bad instruction `can2_rx1_irqhandler '
+../startup/startup_stm32f407xx.s:375: Error: bad instruction `can2_sce_irqhandler '
+../startup/startup_stm32f407xx.s:376: Error: bad instruction `otg_fs_irqhandler '
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_cryp_des.d" -MT"Drivers/src/stm32f4xx_cryp_des.o" -o "Drivers/src/stm32f4xx_cryp_des.o" "../Drivers/src/stm32f4xx_cryp_des.c"
+../startup/startup_stm32f407xx.s:377: Error: bad instruction `dma2_stream5_irqhandler '
+../startup/startup_stm32f407xx.s:378: Error: bad instruction `dma2_stream6_irqhandler '
+../startup/startup_stm32f407xx.s:379: Error: bad instruction `dma2_stream7_irqhandler '
+../startup/startup_stm32f407xx.s:380: Error: bad instruction `usart6_irqhandler '
+../startup/startup_stm32f407xx.s:381: Error: bad instruction `i2c3_ev_irqhandler '
+../startup/startup_stm32f407xx.s:382: Error: bad instruction `i2c3_er_irqhandler '
+../startup/startup_stm32f407xx.s:383: Error: bad instruction `otg_hs_ep1_out_irqhandler '
+../startup/startup_stm32f407xx.s:384: Error: bad instruction `otg_hs_ep1_in_irqhandler '
+Invoking: MCU GCC Compiler
+../startup/startup_stm32f407xx.s:385: Error: bad instruction `otg_hs_wkup_irqhandler '
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_cryp_tdes.d" -MT"Drivers/src/stm32f4xx_cryp_tdes.o" -o "Drivers/src/stm32f4xx_cryp_tdes.o" "../Drivers/src/stm32f4xx_cryp_tdes.c"
+../startup/startup_stm32f407xx.s:386: Error: bad instruction `otg_hs_irqhandler '
+../startup/startup_stm32f407xx.s:387: Error: bad instruction `dcmi_irqhandler '
+../startup/startup_stm32f407xx.s:388: Error: bad instruction `hash_rng_irqhandler'
+../startup/startup_stm32f407xx.s:389: Error: bad instruction `fpu_irqhandler '
+Invoking: MCU GCC Compiler
+../startup/startup_stm32f407xx.s:393: Error: bad instruction `endp'
+../startup/startup_stm32f407xx.s:395: Error: bad instruction `align'
+../startup/startup_stm32f407xx.s:397: Error: junk at end of line, first unrecognized character is `*'
+Invoking: MCU GCC Compiler
+../startup/startup_stm32f407xx.s:398: Error: bad instruction `user Stack and Heap initialization'
+../startup/startup_stm32f407xx.s:399: Error: junk at end of line, first unrecognized character is `*'
+../startup/startup_stm32f407xx.s:400: Error: bad instruction `__microlib'
+../startup/startup_stm32f407xx.s:402: Error: bad instruction `export __initial_sp'
+../startup/startup_stm32f407xx.s:403: Error: bad instruction `export __heap_base'
+../startup/startup_stm32f407xx.s:404: Error: bad instruction `export __heap_limit'
+../startup/startup_stm32f407xx.s:406: Error: bad instruction `else'
+../startup/startup_stm32f407xx.s:408: Error: bad instruction `import __use_two_region_memory'
+../startup/startup_stm32f407xx.s:409: Error: bad instruction `export __user_initial_stackheap'
+../startup/startup_stm32f407xx.s:411: Error: bad instruction `__user_initial_stackheap'
+../startup/startup_stm32f407xx.s:414: Error: syntax error -- `ldr R1,=(Stack_Mem+Stack_Size)'
+../startup/startup_stm32f407xx.s:415: Error: syntax error -- `ldr R2,=(Heap_Mem+Heap_Size)'
+../startup/startup_stm32f407xx.s:419: Error: bad instruction `align'
+../startup/startup_stm32f407xx.s:421: Error: bad instruction `endif'
+../startup/startup_stm32f407xx.s:423: Error: bad instruction `end'
+../startup/startup_stm32f407xx.s:425: Error: junk at end of line,In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_can.h:38:0,
+                 from ../Drivers/src/stm32f4xx_can.c:84:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from ../src/02_Led_BTN_Toggle.c:9:0:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+   ^~~~~
+In file included from ../startup/system_stm32f4xx.c:317:0:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+ first unrecognized character is `*'
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp.c:164:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_can.h:38:0,
+                 from ../Drivers/src/stm32f4xx_can.c:84:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/misc.h:38:0,
+                 from ../Drivers/src/misc.c:76:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_dac.d" -MT"Drivers/src/stm32f4xx_dac.o" -o "Drivers/src/stm32f4xx_dac.o" "../Drivers/src/stm32f4xx_dac.c"
+In file included from ../src/02_Led_BTN_Toggle.c:9:0:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_dbgmcu.d" -MT"Drivers/src/stm32f4xx_dbgmcu.o" -o "Drivers/src/stm32f4xx_dbgmcu.o" "../Drivers/src/stm32f4xx_dbgmcu.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+In file included from ../startup/system_stm32f4xx.c:317:0:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_dcmi.d" -MT"Drivers/src/stm32f4xx_dcmi.o" -o "Drivers/src/stm32f4xx_dcmi.o" "../Drivers/src/stm32f4xx_dcmi.c"
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp.c:164:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+Building file: ../Drivers/src/stm32f4xx_dfsdm.c
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_adc.h:38:0,
+                 from ../Drivers/src/stm32f4xx_adc.c:106:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/misc.h:38:0,
+                 from ../Drivers/src/misc.c:76:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+startup/subdir.mk:22: recipe for target 'startup/startup_stm32f407xx.o' failed
+make: *** [startup/startup_stm32f407xx.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cec.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cec.c:93:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+src/subdir.mk:18: recipe for target 'src/02_Led_BTN_Toggle.o' failed
+make: *** [src/02_Led_BTN_Toggle.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_can.o' failed
+make: *** [Drivers/src/stm32f4xx_can.o] Error 1
+startup/subdir.mk:30: recipe for target 'startup/system_stm32f4xx.o' failed
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_adc.h:38:0,
+                 from ../Drivers/src/stm32f4xx_adc.c:106:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_cryp.o' failed
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [startup/system_stm32f4xx.o] Error 1
+make: *** [Drivers/src/stm32f4xx_cryp.o] Error 1
+make: *** [Drivers/src/misc.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/misc.o' failed
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cec.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cec.c:93:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+Invoking: MCU GCC Compiler
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_crc.h:38:0,
+                 from ../Drivers/src/stm32f4xx_crc.c:29:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_crc.h:38:0,
+                 from ../Drivers/src/stm32f4xx_crc.c:29:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_adc.o' failed
+make: *** [Drivers/src/stm32f4xx_adc.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_cec.o' failed
+make: *** [Drivers/src/stm32f4xx_cec.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_crc.o' failed
+make: *** [Drivers/src/stm32f4xx_crc.o] Error 1
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obc_test\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Drivers/src/stm32f4xx_dfsdm.d" -MT"Drivers/src/stm32f4xx_dfsdm.o" -o "Drivers/src/stm32f4xx_dfsdm.o" "../Drivers/src/stm32f4xx_dfsdm.c"
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp_aes.c:55:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp_aes.c:55:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_cryp_aes.o' failed
+make: *** [Drivers/src/stm32f4xx_cryp_aes.o] Error 1
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp_des.c:48:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp_des.c:48:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp_tdes.c:48:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+make: *** [Drivers/src/stm32f4xx_cryp_des.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_cryp_des.o' failed
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_dbgmcu.h:37:0,
+                 from ../Drivers/src/stm32f4xx_dbgmcu.c:29:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_dac.h:38:0,
+                 from ../Drivers/src/stm32f4xx_dac.c:131:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_cryp.h:38:0,
+                 from ../Drivers/src/stm32f4xx_cryp_tdes.c:48:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_dbgmcu.h:37:0,
+                 from ../Drivers/src/stm32f4xx_dbgmcu.c:29:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_dac.h:38:0,
+                 from ../Drivers/src/stm32f4xx_dac.c:131:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/src/stm32f4xx_cryp_tdes.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_cryp_tdes.o' failed
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_dcmi.h:37:0,
+                 from ../Drivers/src/stm32f4xx_dcmi.c:86:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+make: *** [Drivers/src/stm32f4xx_dac.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_dac.o' failed
+make: *** [Drivers/src/stm32f4xx_dbgmcu.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_dbgmcu.o' failed
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_dcmi.h:37:0,
+                 from ../Drivers/src/stm32f4xx_dcmi.c:86:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/src/stm32f4xx_dcmi.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_dcmi.o' failed
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_rcc.h:37:0,
+                 from ../Drivers/src/stm32f4xx_dfsdm.c:44:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:112:3: error: #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+  #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+   ^~~~~
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx_rcc.h:37:0,
+                 from ../Drivers/src/stm32f4xx_dfsdm.c:44:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obc_test/Drivers/inc/stm32f4xx.h:667:10: fatal error: system_stm32f4xx.h: No such file or directory
+ #include "system_stm32f4xx.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/src/stm32f4xx_dfsdm.o] Error 1
+Drivers/src/subdir.mk:141: recipe for target 'Drivers/src/stm32f4xx_dfsdm.o' failed
+
+09:01:32 Build Finished (took 1s.673ms)
+

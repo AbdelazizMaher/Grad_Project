@@ -1,0 +1,376 @@
+01:58:27 **** Incremental Build of configuration Debug for project obc_pinout ****
+make -j16 all 
+Building file: ../Src/fatfs.c
+Building file: ../Src/housekeeping.c
+Invoking: MCU GCC Compiler
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/fatfs.d" -MT"Src/fatfs.o" -o "Src/fatfs.o" "../Src/fatfs.c"
+Building file: ../Src/upsat.c
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+Building file: ../Src/wdg.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/housekeeping.d" -MT"Src/housekeeping.o" -o "Src/housekeeping.o" "../Src/housekeeping.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c
+Invoking: MCU GCC Compiler
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+Invoking: MCU GCC Compiler
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+Invoking: MCU GCC Compiler
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/upsat.d" -MT"Src/upsat.o" -o "Src/upsat.o" "../Src/upsat.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/wdg.d" -MT"Src/wdg.o" -o "Src/wdg.o" "../Src/wdg.c"
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.o" -o "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.o" "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/croutine.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/croutine.o" -o "Middlewares/Third_Party/FreeRTOS/Source/croutine.o" "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o" -o "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o" "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/queue.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/queue.o" -o "Middlewares/Third_Party/FreeRTOS/Source/queue.o" "../Middlewares/Third_Party/FreeRTOS/Source/queue.c"
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc/fatfs.h:41:0,
+Building file: ../Middlewares/Third_Party/FatFs/src/option/syscall.c
+                 from ../Src/fatfs.c:34:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h:36:8: error: unknown type name 'Diskio_drvTypeDef'
+ extern Diskio_drvTypeDef  SD_Driver;
+        ^~~~~~~~~~~~~~~~~
+In file included from ../Src/fatfs.c:34:0:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc/fatfs.h:47:8: error: unknown type name 'uint8_t'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/list.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/list.o" -o "Middlewares/Third_Party/FreeRTOS/Source/list.o" "../Middlewares/Third_Party/FreeRTOS/Source/list.c"
+ extern uint8_t retSD; /* Return value for SD */
+        ^~~~~~~
+../Src/fatfs.c:36:1: error: unknown type name 'uint8_t'
+ uint8_t retSD;    /* Return value for SD */
+ ^~~~~~~
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/event_groups.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" -o "Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+Building file: ../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/tasks.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/tasks.o" -o "Middlewares/Third_Party/FreeRTOS/Source/tasks.o" "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/option/syscall.d" -MT"Middlewares/Third_Party/FatFs/src/option/syscall.o" -o "Middlewares/Third_Party/FatFs/src/option/syscall.o" "../Middlewares/Third_Party/FatFs/src/option/syscall.c"
+../Src/fatfs.c: In function 'MX_FATFS_Init':
+../Src/fatfs.c:46:11: warning: implicit declaration of function 'FATFS_LinkDriver' [-Wimplicit-function-declaration]
+   retSD = FATFS_LinkDriver(&SD_Driver, SD_Path);
+           ^~~~~~~~~~~~~~~~
+../Src/fatfs.c: At top level:
+../Src/fatfs.c:58:1: error: unknown type name 'DWORD'; did you mean '__SORD'?
+ DWORD get_fattime(void)
+ ^~~~~
+ __SORD
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\upsat-obc-software-master\cubeMX\obc\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.d" -MT"Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.o" -o "Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.o" "../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F405xx -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Drivers/CMSIS/Include"  -O2 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/timers.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/timers.o" -o "Middlewares/Third_Party/FreeRTOS/Source/timers.o" "../Middlewares/Third_Party/FreeRTOS/Source/timers.c"
+Src/subdir.mk:69: recipe for target 'Src/fatfs.o' failed
+make: *** [Src/fatfs.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Src/housekeeping.c:3:10: fatal error: housekeeping_service.h: No such file or directory
+ #include "housekeeping_service.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/housekeeping.o] Error 1
+Src/subdir.mk:69: recipe for target 'Src/housekeeping.o' failed
+../Src/upsat.c: In function 'import_pkt':
+../Src/upsat.c:47:39: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+             if(!C_ASSERT(pkt != NULL) == true) { return SATR_ERROR; }
+                                       ^~
+../Src/upsat.c:47:16: note: add parentheses around left hand side expression to silence this warning
+             if(!C_ASSERT(pkt != NULL) == true) { return SATR_ERROR; }
+../Src/upsat.c: In function 'export_pkt':
+../Src/upsat.c:94:28: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if(!C_ASSERT(size > 0) == true) { return SATR_ERROR; }
+                            ^~
+../Src/upsat.c:94:8: note: add parentheses around left hand side expression to silence this warning
+     if(!C_ASSERT(size > 0) == true) { return SATR_ERROR; }
+../Src/upsat.c: In function 'sys_refresh':
+../Src/upsat.c:112:36: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if(!C_ASSERT(temp_pkt != NULL) == true) { return ; }
+                                    ^~
+../Src/upsat.c:112:8: note: add parentheses around left hand side expression to silence this warning
+     if(!C_ASSERT(temp_pkt != NULL) == true) { return ; }
+../Src/upsat.c: In function 'test_crt_heartbeat':
+../Src/upsat.c:120:32: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if(!C_ASSERT(*pkt != NULL) == true) { return SATR_ERROR; }
+                                ^~
+../Src/upsat.c:120:8: note: add parentheses around left hand side expression to silence this warning
+     if(!C_ASSERT(*pkt != NULL) == true) { return SATR_ERROR; }
+../Src/upsat.c: In function 'firewall':
+../Src/upsat.c:130:52: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if(!C_ASSERT(pkt != NULL && pkt->data != NULL) == true) {
+                                                    ^~
+../Src/upsat.c:130:8: note: add parentheses around left hand side expression to silence this warning
+     if(!C_ASSERT(pkt != NULL && pkt->data != NULL) == true) {
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:181:3: error: unknown type name 'QueueHandle_t'
+   QueueHandle_t xHandle;
+   ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:260:32: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueueGenericReset( QueueHandle_t xQueue, BaseType_t xNewQueue )
+                                ^~~~~~~~~~~~~
+                                xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:313:1: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength, const UBaseType_t uxItemSize, const uint8_t ucQueueType )
+ ^~~~~~~~~~~~~
+ xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c: In function 'xQueueGenericCreate':
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:317:1: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ QueueHandle_t xReturn = NULL;
+ ^~~~~~~~~~~~~
+ xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:317:25: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+ QueueHandle_t xReturn = NULL;
+                         ^~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:361:12: warning: implicit declaration of function 'xQueueGenericReset'; did you mean 'xQueueGenericCreate'? [-Wimplicit-function-declaration]
+   ( void ) xQueueGenericReset( pxNewQueue, pdTRUE );
+            ^~~~~~~~~~~~~~~~~~
+            xQueueGenericCreate
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:376:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   xReturn = pxNewQueue;
+           ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c: At top level:
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:391:2: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+  QueueHandle_t xQueueCreateMutex( const uint8_t ucQueueType )
+  ^~~~~~~~~~~~~
+  xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c: In function 'xQueueCreateMutex':
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:440:13: warning: implicit declaration of function 'xQueueGenericSend'; did you mean 'xQueueGenericCreate'? [-Wimplicit-function-declaration]
+    ( void ) xQueueGenericSend( pxNewQueue, NULL, ( TickType_t ) 0U, queueSEND_TO_BACK );
+             ^~~~~~~~~~~~~~~~~
+             xQueueGenericCreate
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc/fatfs.h:41:0,
+                 from ../Src/main.c:36:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h:36:8: error: unknown type name 'Diskio_drvTypeDef'
+ extern Diskio_drvTypeDef  SD_Driver;
+        ^~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:440:69: error: 'queueSEND_TO_BACK' undeclared (first use in this function)
+    ( void ) xQueueGenericSend( pxNewQueue, NULL, ( TickType_t ) 0U, queueSEND_TO_BACK );
+                                                                     ^~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:440:69: note: each undeclared identifier is reported only once for each function it appears in
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:447:10: warning: return makes integer from pointer without a cast [-Wint-conversion]
+   return pxNewQueue;
+          ^~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c: At top level:
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:609:31: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition )
+                               ^~~~~~~~~~~~~
+                               xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1054:38: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition )
+                                      ^~~~~~~~~~~~~
+                                      xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1203:31: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueueGiveFromISR( QueueHandle_t xQueue, BaseType_t * const pxHigherPriorityTaskWoken )
+                               ^~~~~~~~~~~~~
+                               xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1364:34: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueueGenericReceive( QueueHandle_t xQueue, void * const pvBuffer, TickType_t xTicksToWait, const BaseType_t xJustPeeking )
+                                  ^~~~~~~~~~~~~
+                                  xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1551:34: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueueReceiveFromISR( QueueHandle_t xQueue, void * const pvBuffer, BaseType_t * const pxHigherPriorityTaskWoken )
+                                  ^~~~~~~~~~~~~
+                                  xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1638:31: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ BaseType_t xQueuePeekFromISR( QueueHandle_t xQueue,  void * const pvBuffer )
+                               ^~~~~~~~~~~~~
+                               xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1692:43: error: unknown type name 'QueueHandle_t'
+ UBaseType_t uxQueueMessagesWaiting( const QueueHandle_t xQueue )
+                                           ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1708:43: error: unknown type name 'QueueHandle_t'
+ UBaseType_t uxQueueSpacesAvailable( const QueueHandle_t xQueue )
+                                           ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1726:50: error: unknown type name 'QueueHandle_t'
+ UBaseType_t uxQueueMessagesWaitingFromISR( const QueueHandle_t xQueue )
+                                                  ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1738:20: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+ void vQueueDelete( QueueHandle_t xQueue )
+                    ^~~~~~~~~~~~~
+                    xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1756:37: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+  UBaseType_t uxQueueGetQueueNumber( QueueHandle_t xQueue )
+                                     ^~~~~~~~~~~~~
+                                     xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1766:29: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+  void vQueueSetQueueNumber( QueueHandle_t xQueue, UBaseType_t uxQueueNumber )
+                             ^~~~~~~~~~~~~
+                             xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1776:31: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+  uint8_t ucQueueGetQueueType( QueueHandle_t xQueue )
+                               ^~~~~~~~~~~~~
+                               xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c: In function 'prvCopyDataToQueue':
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1805:24: error: 'queueSEND_TO_BACK' undeclared (first use in this function)
+  else if( xPosition == queueSEND_TO_BACK )
+                        ^~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1831:20: error: 'queueOVERWRITE' undeclared (first use in this function)
+   if( xPosition == queueOVERWRITE )
+                    ^~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c: At top level:
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:2012:45: error: unknown type name 'QueueHandle_t'
+ BaseType_t xQueueIsQueueEmptyFromISR( const QueueHandle_t xQueue )
+                                             ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:2051:44: error: unknown type name 'QueueHandle_t'
+ BaseType_t xQueueIsQueueFullFromISR( const QueueHandle_t xQueue )
+                                            ^~~~~~~~~~~~~
+../Src/main.c: In function 'main':
+../Src/main.c:163:3: warning: implicit declaration of function 'SEGGER_SYSVIEW_Conf' [-Wimplicit-function-declaration]
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c
+   SEGGER_SYSVIEW_Conf();
+   ^~~~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:2346:28: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+  void vQueueAddToRegistry( QueueHandle_t xQueue, const char *pcQueueName ) /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                            ^~~~~~~~~~~~~
+                            xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:2375:30: error: unknown type name 'QueueHandle_t'; did you mean 'xQueueHandle'?
+  void vQueueUnregisterQueue( QueueHandle_t xQueue )
+                              ^~~~~~~~~~~~~
+                              xQueueHandle
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:2030:19: warning: 'prvIsQueueFull' defined but not used [-Wunused-function]
+ static BaseType_t prvIsQueueFull( const Queue_t *pxQueue )
+                   ^~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1991:19: warning: 'prvIsQueueEmpty' defined but not used [-Wunused-function]
+ static BaseType_t prvIsQueueEmpty( const Queue_t *pxQueue )
+                   ^~~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1876:13: warning: 'prvUnlockQueue' defined but not used [-Wunused-function]
+ static void prvUnlockQueue( Queue_t * const pxQueue )
+             ^~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1858:13: warning: 'prvCopyDataFromQueue' defined but not used [-Wunused-function]
+ static void prvCopyDataFromQueue( Queue_t * const pxQueue, void * const pvBuffer )
+             ^~~~~~~~~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c:1784:19: warning: 'prvCopyDataToQueue' defined but not used [-Wunused-function]
+ static BaseType_t prvCopyDataToQueue( Queue_t * const pxQueue, const void *pvItemToQueue, const BaseType_t xPosition )
+                   ^~~~~~~~~~~~~~~~~~
+../Src/main.c:164:3: warning: implicit declaration of function 'sysview_init'; did you mean 'SystemInit'? [-Wimplicit-function-declaration]
+   sysview_init();
+   ^~~~~~~~~~~~
+   SystemInit
+../Src/main.c:222:43: error: 'queueEPS' undeclared (first use in this function); did you mean 'queuePop'?
+   uint32_t test = uxQueueMessagesWaiting( queueEPS );
+                                           ^~~~~~~~
+                                           queuePop
+../Src/main.c:222:43: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:223:34: error: 'queueDBG' undeclared (first use in this function); did you mean 'queueEPS'?
+   test = uxQueueMessagesWaiting( queueDBG );
+                                  ^~~~~~~~
+                                  queueEPS
+ 
+../Src/main.c:224:34: error: 'queueADCS' undeclared (first use in this function); did you mean 'queueDBG'?
+   test = uxQueueMessagesWaiting( queueADCS );
+                                  ^~~~~~~~~
+                                  queueDBG
+../Src/main.c:225:34: error: 'queueCOMMS' undeclared (first use in this function); did you mean 'queueADCS'?
+   test = uxQueueMessagesWaiting( queueCOMMS );
+                                  ^~~~~~~~~~
+                                  queueADCS
+../Src/main.c:222:12: warning: variable 'test' set but not used [-Wunused-but-set-variable]
+   uint32_t test = uxQueueMessagesWaiting( queueEPS );
+            ^~~~
+make: *** [Middlewares/Third_Party/FreeRTOS/Source/queue.o] Error 1
+Middlewares/Third_Party/FreeRTOS/Source/subdir.mk:33: recipe for target 'Middlewares/Third_Party/FreeRTOS/Source/queue.o' failed
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+../Src/main.c: In function 'UART_task':
+../Src/main.c:679:4: warning: implicit declaration of function 'HAL_obc_enableBkUpAccess'; did you mean 'HAL_PWR_EnableBkUpAccess'? [-Wimplicit-function-declaration]
+    HAL_obc_enableBkUpAccess();
+    ^~~~~~~~~~~~~~~~~~~~~~~~
+    HAL_PWR_EnableBkUpAccess
+Finished building: ../Src/wdg.c
+../Src/main.c:683:4: warning: implicit declaration of function 'HAL_reset_source'; did you mean 'get_reset_source'? [-Wimplicit-function-declaration]
+    HAL_reset_source(&rsrc);
+    ^~~~~~~~~~~~~~~~
+    get_reset_source
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+../Src/main.c:691:4: warning: implicit declaration of function 'HAL_obc_SD_ON' [-Wimplicit-function-declaration]
+    HAL_obc_SD_ON();
+    ^~~~~~~~~~~~~
+ 
+Finished building: ../Src/upsat.c
+ 
+ 
+ 
+../Src/main.c:693:4: warning: implicit declaration of function 'mass_storage_init' [-Wimplicit-function-declaration]
+    mass_storage_init();
+    ^~~~~~~~~~~~~~~~~
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+../Src/main.c:719:28: warning: implicit declaration of function 'HAL_sys_GetTick'; did you mean 'HAL_GetTick'? [-Wimplicit-function-declaration]
+     task_times.uart_time = HAL_sys_GetTick();
+                            ^~~~~~~~~~~~~~~
+                            HAL_GetTick
+../Src/main.c:734:31: error: 'queueADCS' undeclared (first use in this function); did you mean 'queue_IDLE'?
+     if(uxQueueMessagesWaiting(queueADCS)  > 0  ||
+                               ^~~~~~~~~
+                               queue_IDLE
+../Src/main.c:735:31: error: 'queueDBG' undeclared (first use in this function); did you mean 'queueADCS'?
+        uxQueueMessagesWaiting(queueDBG)   > 0  ||
+                               ^~~~~~~~
+                               queueADCS
+../Src/main.c:736:31: error: 'queueCOMMS' undeclared (first use in this function); did you mean 'queueADCS'?
+        uxQueueMessagesWaiting(queueCOMMS) > 0  ||
+                               ^~~~~~~~~~
+                               queueADCS
+../Src/main.c:737:31: error: 'queueEPS' undeclared (first use in this function); did you mean 'queueDBG'?
+        uxQueueMessagesWaiting(queueEPS)   > 0) {
+                               ^~~~~~~~
+                               queueDBG
+../Src/main.c:697:20: warning: unused variable 'xMaxBlockTime' [-Wunused-variable]
+   const TickType_t xMaxBlockTime = pdMS_TO_TICKS(10000);
+                    ^~~~~~~~~~~~~
+../Src/main.c:696:12: warning: variable 'ulNotificationValue' set but not used [-Wunused-but-set-variable]
+   uint32_t ulNotificationValue;
+            ^~~~~~~~~~~~~~~~~~~
+../Src/main.c: In function 'HK_task':
+../Src/main.c:754:3: warning: implicit declaration of function 'hk_INIT'; did you mean 'su_INIT'? [-Wimplicit-function-declaration]
+   hk_INIT();
+   ^~~~~~~
+   su_INIT
+../Src/main.c:760:5: warning: implicit declaration of function 'hk_SCH'; did you mean 'SU_SCH'? [-Wimplicit-function-declaration]
+     hk_SCH();
+     ^~~~~~
+     SU_SCH
+In file included from C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc/su_mnlp.h:7:0,
+                 from ../Src/main.c:43:
+At top level:
+C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/upsat-obc-software-master/cubeMX/obc/Inc/scheduling_service.h:189:16: warning: 'scheduling_enabled' defined but not used [-Wunused-variable]
+ static uint8_t scheduling_enabled = true;
+                ^~~~~~~~~~~~~~~~~~
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+ 
+Src/subdir.mk:69: recipe for target 'Src/main.o' failed
+make: *** [Src/main.o] Error 1
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+ 
+ 
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+ 
+Finished building: ../Middlewares/Third_Party/FatFs/src/option/syscall.c
+Finished building: ../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c
+ 
+ 
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+ 
+
+01:58:33 Build Finished (took 5s.450ms)
+

@@ -1,0 +1,76 @@
+04:52:27 **** Incremental Build of configuration Debug for project obctrans_rep ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obctrans_rep\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obctrans_rep/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obctrans_rep/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obctrans_rep/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obctrans_rep/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'route_pkt':
+../src/main.c:357:21: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+     SAT_returnState res;
+                     ^~~
+../src/main.c: In function 'stats_outbound':
+../src/main.c:409:18: warning: variable 'dest' set but not used [-Wunused-but-set-variable]
+     TC_TM_app_id dest = 0;
+                  ^~~~
+../src/main.c:408:18: warning: variable 'source' set but not used [-Wunused-but-set-variable]
+     TC_TM_app_id source = 0;
+                  ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: obctrans_rep.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obctrans_rep/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "obctrans_rep.elf" @"objects.list"   -lm
+Finished building target: obctrans_rep.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "obctrans_rep.elf" "obctrans_rep.bin"
+arm-none-eabi-size "obctrans_rep.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11592	   1096	  23844	  36532	   8eb4	obctrans_rep.elf
+ 
+04:55:52 **** Programming project obctrans_rep on chip ****
+"C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.23.0.201904120827\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.1835893909069245695.cfg -s "C:\\Users\\Abdel\\OneDrive\\Documents\\eclipseWorkspace\\obc_upsat\\obctrans_rep" -s "C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.5.0.201904120827\\resources\\openocd\\st_scripts" -c "program Debug/obctrans_rep.elf verify reset " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:48)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2.1 JTAG v38 API v2 M27 VID 0x0483 PID 0x374B
+Info : using stlink api v2
+Info : Target voltage: 2.902425
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F407VGTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08000268 msp: 0x20000f70
+configuring PLL
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+adapter speed: 4000 kHz
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10076413
+Info : flash size = 1024kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000046 msp: 0x20000f70
+wrote 16384 bytes from file Debug/obctrans_rep.elf in 0.765995s (20.888 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20000f70
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20000f70
+verified 12688 bytes in 0.309784s (39.998 KiB/s)
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
+04:56:04 **** Incremental Build of configuration Debug for project obctrans_rep ****
+make -j16 all 
+make: Nothing to be done for 'all'.

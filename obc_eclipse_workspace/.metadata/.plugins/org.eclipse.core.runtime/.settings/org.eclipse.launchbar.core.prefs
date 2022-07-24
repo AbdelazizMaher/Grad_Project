@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:obcTEST Debug,org.eclipse.launchbar.core.descriptorType.default\:obcTESTrecieve Debug,org.eclipse.launchbar.core.descriptorType.default\:obcTESTrecieve2 Debug,org.eclipse.launchbar.core.descriptorType.default\:rtc_sch Debug,org.eclipse.launchbar.core.descriptorType.default\:bkp_sram Debug,org.eclipse.launchbar.core.descriptorType.default\:fatfs_obc Debug,org.eclipse.launchbar.core.descriptorType.default\:obctranrecieve Debug,org.eclipse.launchbar.core.descriptorType.default\:obcrecivefinal Debug,org.eclipse.launchbar.core.descriptorType.default\:obctrans_rep Debug,org.eclipse.launchbar.core.descriptorType.default\:405_test Debug (1),org.eclipse.launchbar.core.descriptorType.default\:405_test Debug,org.eclipse.launchbar.core.descriptorType.default\:405_fatfs_load Debug,org.eclipse.launchbar.core.descriptorType.default\:405_fatfs_sch Debug,org.eclipse.launchbar.core.descriptorType.default\:405_fatfs Debug,org.eclipse.launchbar.core.descriptorType.default\:405_rtcSCH Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:405_fatfs\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:405_fatfs\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:bkp_sram\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:bkp_sram\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:fatfs_obc\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:fatfs_obc\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:obcTEST\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:obcTEST\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:obcrecivefinal\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:obcrecivefinal\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:obctranrecieve\ Debug/activeLaunchMode=debug

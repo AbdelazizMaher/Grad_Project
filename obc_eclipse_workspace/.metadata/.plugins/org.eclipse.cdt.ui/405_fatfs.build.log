@@ -1,0 +1,6 @@
+08:43:26 **** Incremental Build of configuration Debug for project 405_fatfs ****
+make -j16 all 
+make: Nothing to be done for 'all'.
+
+08:43:27 Build Finished (took 579ms)
+

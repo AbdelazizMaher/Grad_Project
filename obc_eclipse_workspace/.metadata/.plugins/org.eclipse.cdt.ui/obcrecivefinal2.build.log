@@ -1,0 +1,47 @@
+00:13:56 **** Build of configuration Debug for project obcrecivefinal2 ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Abdel\OneDrive\Documents\eclipseWorkspace\obc_upsat\obcrecivefinal2\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obcrecivefinal2/StdPeriph_Driver/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obcrecivefinal2/inc" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obcrecivefinal2/CMSIS/device" -I"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obcrecivefinal2/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'unpack_pkt':
+../src/main.c:440:45: warning: variable 'tc_pus' set but not used [-Wunused-but-set-variable]
+     uint8_t ver, dfield_hdr, ccsds_sec_hdr, tc_pus;
+                                             ^~~~~~
+../src/main.c:440:30: warning: variable 'ccsds_sec_hdr' set but not used [-Wunused-but-set-variable]
+     uint8_t ver, dfield_hdr, ccsds_sec_hdr, tc_pus;
+                              ^~~~~~~~~~~~~
+../src/main.c:440:18: warning: variable 'dfield_hdr' set but not used [-Wunused-but-set-variable]
+     uint8_t ver, dfield_hdr, ccsds_sec_hdr, tc_pus;
+                  ^~~~~~~~~~
+../src/main.c:440:13: warning: variable 'ver' set but not used [-Wunused-but-set-variable]
+     uint8_t ver, dfield_hdr, ccsds_sec_hdr, tc_pus;
+             ^~~
+../src/main.c: In function 'stats_inbound':
+../src/main.c:482:18: warning: variable 'dest' set but not used [-Wunused-but-set-variable]
+     TC_TM_app_id dest = 0;
+                  ^~~~
+../src/main.c:481:18: warning: variable 'source' set but not used [-Wunused-but-set-variable]
+     TC_TM_app_id source = 0;
+                  ^~~~~~
+../src/main.c: In function 'route_pkt':
+../src/main.c:496:21: warning: unused variable 'res' [-Wunused-variable]
+     SAT_returnState res;
+                     ^~~
+Finished building: ../src/main.c
+ 
+Building target: obcrecivefinal2.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/Abdel/OneDrive/Documents/eclipseWorkspace/obc_upsat/obcrecivefinal2/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "obcrecivefinal2.elf" @"objects.list"   -lm
+Finished building target: obcrecivefinal2.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "obcrecivefinal2.elf" "obcrecivefinal2.bin"
+arm-none-eabi-size "obcrecivefinal2.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5432	   1096	  41772	  48300	   bcac	obcrecivefinal2.elf
+ 
+
+00:14:01 Build Finished (took 5s.344ms)
+
